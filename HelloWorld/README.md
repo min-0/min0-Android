@@ -2,4 +2,4 @@
 
 실행결과
 
-![Untitled](HelloWorld%20d6b8de0eac4d42a6b5c59435fe4e671a/Untitled.png)
+![image](https://user-images.githubusercontent.com/66067273/168411497-dd03d6b1-1e35-4303-a51b-5e4cff97618b.png)
