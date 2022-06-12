@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">노래목록</string>
+
+    <string name="title1"> Bridge Over Troubled Water </string>
+    <string name="singer1"> Simon and Garfunkel </string>
+    <string name="body1">
+        When you\'re weary, feeling small \n
+        When tears are in your eyes \n
+        I\'ll dry them all
+    </string>
+
+    <string name="title2"> Yesterday </string>
+    <string name="singer2"> Beatles </string>
+    <string name="body2">
+        Yesterday, all my troubles seemed so far away \n
+        Now it looks as though they\'re here to say \n
+        Oh, I believe in yesterday
+    </string>
+</resources>
