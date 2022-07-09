@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/txt"
+        android:text="당신의 BMI를 계산해보세요"
+        android:gravity="center"
+        android:layout_marginBottom="10mm"
+        android:width="20mm"
+        android:textSize="12pt"
+        android:textColor="#ff0000" />
+
+    <TableRow>
+        <TextView android:text="키(m)" />
+        <EditText
+            android:id="@+id/height"
+            android:width="20mm"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:gravity="center"
+            android:width="20mm"
+            android:text="BMI"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView android:text="몸무게(kg)" />
+        <EditText
+            android:id="@+id/weight"
+            android:width="20mm"
+            android:inputType="numberDecimal" />
+        <TextView
+            android:id="@+id/result"
+            android:layout_marginLeft="1mm"
+            android:width="20mm"
+            android:textSize="12pt"
+            android:textColor="#0000ff" />
+    </TableRow>
+
+    <TableRow>
+
+        <Button
+            android:layout_width="134dp"
+            android:layout_weight="1"
+            android:onClick="calcBMI"
+            android:text="계     산" />
+        <Button
+            android:text="CLEAR"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="1mm"
+            android:onClick="clearSCR" />
+    </TableRow>
+
+</TableLayout>
