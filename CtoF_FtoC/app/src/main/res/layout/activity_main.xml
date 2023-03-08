@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="섭씨 온도" />
+        <EditText
+            android:id="@+id/Cdeg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="화씨 온도" />
+        <EditText
+            android:id="@+id/Fdeg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"/>
+    </TableRow>
+    <TableRow>
+        <Button
+            android:id="@+id/CtoF"
+            android:onClick="CtoF_FtoC"
+            android:text="섭씨->화씨" />
+        <Button
+            android:id="@+id/FtoC"
+            android:onClick="CtoF_FtoC"
+            android:text="화씨->섭씨"
+            android:layout_marginLeft="1mm"/>
+    </TableRow>
+
+</TableLayout>

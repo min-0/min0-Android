@@ -1,0 +1,2 @@
+rootProject.name = "CtoF_FtoC"
+include ':app'
