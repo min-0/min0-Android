@@ -1,0 +1,2 @@
+rootProject.name = "CurveDraw"
+include ':app'
