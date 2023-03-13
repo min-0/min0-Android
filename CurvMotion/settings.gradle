@@ -1,0 +1,2 @@
+rootProject.name = "CurvMotion"
+include ':app'
